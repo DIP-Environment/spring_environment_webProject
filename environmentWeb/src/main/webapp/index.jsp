@@ -15,7 +15,7 @@
     
     <!-- 네비게이션바 include기능 -->
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript">   
+	<script type="text/javascript">    
 	$(document).ready( function() {
 			$("#navBar").load("views/common/navBar.jsp");  //nav include
 	});
