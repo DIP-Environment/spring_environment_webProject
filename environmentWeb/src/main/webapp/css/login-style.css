@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url("../images/member_bg.png") no-repeat center;
+	background-size : cover;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#logo {
+	width: 250px;
+	height: 100px;
+	object-fit: cover;
+	display: block; margin: 0 auto; 
+}
+
+.center { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 450px;
+	height: 320px;
+	z-index: 1;
+	background: rgba(255,255,255,0.7);
+}
+
+.center form {
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+
+form .text-area {
+	text-align: right;
+	position: relative;
+	margin: 20px 0;
+}
+
+.text-area label {
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.text-area input {
+	width: 65%;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 14px;
+	border: 3px solid #00d4ff;
+	border-radius: 30px;
+}
+
+.button-area {
+	margin-top: 65px;
+	float: right;
+}
+
+.button-area button {
+	margin-left: 10px;
+	width: 55px;
+	height: 40px;
+	background: white;
+	border: none;
+	font-weight: bold;
+	color: #00d4ff;
+	border-radius: 20px;
+}
+
+.singup {
+	text-align: center;
+}
+
+.singup a {
+	font-size: 18px; 
+	font-weight: bold;
+	color: #00d4ff;
+	text-decoration: none;
+	border-bottom-style: solid;
+}
+
+.button-area {
+	margin-top: 30px;
+	float: right;
+}
+
+.button-area button {
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 55px;
+	height: 40px;
+	background: white;
+	border: none;
+	font-weight: bold;
+	color: #00d4ff;
+	border-radius: 20px;
+}
